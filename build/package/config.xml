@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="low-can-service" version="4.0">
+  <name>low-can-service</name>
+  <icon src="icon.png"/>
+  <content src="lib/afb-low-can.so" type="application/vnd.agl.service"/>
+  <description>Expose CAN Low Level APIs through AGL Framework</description>
+  <author>Romain Forlot &lt;romain.forlot@iot.bzh&gt;</author>
+  <license>APL2.0</license>
+</widget>

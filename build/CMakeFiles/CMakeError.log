@@ -1,0 +1,26 @@
+Determining if the function malloc exists in the efence failed with the following output:
+Change Dir: /home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a31ef/fast"
+make[1]: Entering directory '/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a31ef.dir/build.make CMakeFiles/cmTC_a31ef.dir/build
+make[2]: Entering directory '/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a31ef.dir/CheckFunctionExists.c.o
+/opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/bin/x86_64-agl-linux/x86_64-agl-linux-gcc   -march=corei7 -mtune=corei7 -mfpmath=sse -msse4.2 --sysroot=/opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux   -O2 -pipe -g -feliminate-unused-debug-types   -DCHECK_FUNCTION_EXISTS=malloc -fPIE   -o CMakeFiles/cmTC_a31ef.dir/CheckFunctionExists.c.o   -c /opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/share/cmake-3.6/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/share/cmake-3.6/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a31ef
+/opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a31ef.dir/link.txt --verbose=1
+/opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/bin/x86_64-agl-linux/x86_64-agl-linux-gcc   -march=corei7 -mtune=corei7 -mfpmath=sse -msse4.2 --sysroot=/opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux  -O2 -pipe -g -feliminate-unused-debug-types   -DCHECK_FUNCTION_EXISTS=malloc   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  CMakeFiles/cmTC_a31ef.dir/CheckFunctionExists.c.o  -o cmTC_a31ef -rdynamic -lefence 
+/opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/libexec/x86_64-agl-linux/gcc/x86_64-agl-linux/6.2.0/real-ld: cannot find -lefence
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a31ef.dir/build.make:97: recipe for target 'cmTC_a31ef' failed
+make[2]: *** [cmTC_a31ef] Error 1
+make[2]: Leaving directory '/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a31ef/fast' failed
+make[1]: *** [cmTC_a31ef/fast] Error 2
+make[1]: Leaving directory '/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,95 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-cb.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-socket.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-subscription.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/application.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/application-generated.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-bus.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message-set.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message-definition.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-signals.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-decoder.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-encoder.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/diagnostic-message.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/diagnostic-manager.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/active-diagnostic-request.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/signals.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/openxc-utils.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/timer.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/socketcan.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/socketcan-bcm.cpp"
+		},
+		
+		{
+			"file" : "/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/config-parser.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "BINDING" ],
+		"name" : "low-can"
+	}
+}

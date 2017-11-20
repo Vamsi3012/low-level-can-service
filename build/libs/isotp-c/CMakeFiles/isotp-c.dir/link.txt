@@ -1,0 +1,2 @@
+/usr/bin/ar qc libisotp-c.a  CMakeFiles/isotp-c.dir/src/isotp/isotp.c.o CMakeFiles/isotp-c.dir/src/isotp/receive.c.o CMakeFiles/isotp-c.dir/src/isotp/send.c.o
+/usr/bin/ranlib libisotp-c.a

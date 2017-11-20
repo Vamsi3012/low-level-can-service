@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopenxc-message-format.a  CMakeFiles/openxc-message-format.dir/gen/cpp/openxc.pb.c.o CMakeFiles/openxc-message-format.dir/__/nanopb/pb_encode.c.o CMakeFiles/openxc-message-format.dir/__/nanopb/pb_decode.c.o CMakeFiles/openxc-message-format.dir/__/nanopb/pb_common.c.o
+/usr/bin/ranlib libopenxc-message-format.a

@@ -1,0 +1,18 @@
+# Hashes of file build rules.
+b7a16af4facb1ec16da96b03c87f6168 ../conf.d/packaging/agl-low-can-service_4.0.orig.tar.gz
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/archive
+329c6b06302c18efade6d8471ee6a740 CMakeFiles/autobuild
+975e6f5a05fb6311be61a03313ba651e CMakeFiles/low-can-service_build_done
+5e676fe4f5b4ece31c21a5c3455fc4bf CMakeFiles/packaging_rpm
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/packaging_wgt
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/populate
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/project_populate_low-can
+222a3720e51e200ef22c8f937d4c9397 CMakeFiles/remote-target-populate
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/rpm
+96efff2f9158b50b7522436e2ad94e57 CMakeFiles/widget
+222a3720e51e200ef22c8f937d4c9397 CMakeFiles/widget-target-install
+a96865c499eb2b4db9af84eeb5a348a3 agl-low-can-service.spec
+db70fd586a1de878619626723259bd76 low-can-service.wgt
+15ef5fd97d0012145104039da7cd039c package/bin
+0fc59feb665a82b2ea91f7ab452b095c package/config.xml
+df446b22676c7f0e78413e3b868c97dd package/lib/afb-low-can.so

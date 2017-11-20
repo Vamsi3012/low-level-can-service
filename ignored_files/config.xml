@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="low-can-service" version="4.0">
+  <name>low-can-service</name>
+  <icon src="icon.png"/>
+  <content src="bin/low_can_2" type="application/vnd.agl.native"/>
+  <description>Expose CAN Low Level APIs through AGL Framework</description>
+  <author>Romain Forlot &lt;romain.forlot@iot.bzh&gt;</author>
+  <license>APL2.0</license>
+  <feature name="urn:AGL:widget:required-permission">
+	<param name="urn:AGL:permission::public:no-htdocs" value="required"/>
+  </feature>
+  <feature name="urn:AGL:widget:provided-api">
+	<param name="low-can" value="ws"/>
+	<param name="hono" value="ws"/>
+  </feature>
+  <feature name="urn:AGL:widget:required-api">
+	<param name="lib/afb-low-can.so" value="local"/>
+	<param name="lib/afb-hono.so" value="local"/>
+  </feature>
+</widget>

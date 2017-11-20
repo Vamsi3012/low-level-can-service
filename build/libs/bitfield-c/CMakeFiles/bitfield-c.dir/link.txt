@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbitfield-c.a  CMakeFiles/bitfield-c.dir/src/bitfield/8byte.c.o CMakeFiles/bitfield-c.dir/src/bitfield/bitarray.c.o CMakeFiles/bitfield-c.dir/src/bitfield/bitfield.c.o CMakeFiles/bitfield-c.dir/src/canutil/read.c.o CMakeFiles/bitfield-c.dir/src/canutil/write.c.o
+/usr/bin/ranlib libbitfield-c.a

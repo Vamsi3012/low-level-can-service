@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/libs/ini-config/ini-config.cpp
+ini-config.hpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/libs/ini-config/ini-config.hpp
+
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/libs/ini-config/ini-config.hpp
+string
+-
+fstream
+-
+map
+-
+regex
+-
+algorithm
+-
+

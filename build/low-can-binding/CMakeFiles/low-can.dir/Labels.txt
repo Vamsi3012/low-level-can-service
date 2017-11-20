@@ -1,0 +1,24 @@
+# Target labels
+ BINDING
+# Source files and their labels
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-cb.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-socket.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/low-can-subscription.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/application.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/binding/application-generated.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-bus.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message-set.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message-definition.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-message.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-signals.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-decoder.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/can/can-encoder.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/diagnostic-message.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/diagnostic-manager.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/diagnostic/active-diagnostic-request.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/signals.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/openxc-utils.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/timer.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/socketcan.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/socketcan-bcm.cpp
+/home/vgn5kor/AGL_apps/gerrit_apps/low-level-can-service/low-can-binding/utils/config-parser.cpp

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuds-c.a  CMakeFiles/uds-c.dir/src/uds/extras.c.o CMakeFiles/uds-c.dir/src/uds/uds.c.o
+/usr/bin/ranlib libuds-c.a
